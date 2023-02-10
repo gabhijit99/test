@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "gitrg"
+  name     = var.name
   location = "eastus"
 }
