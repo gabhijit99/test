@@ -1,3 +1,3 @@
 variable "name" {
-  rg = "testrg"
+  default = "testrg"
 }
